@@ -18,3 +18,8 @@ resource "aws_instance" "linux1" {
 		Name = "Linux1"	
 	}
 }
+
+
+var "user_password" {
+	description = "The password for the initial Linux user"
+	}
